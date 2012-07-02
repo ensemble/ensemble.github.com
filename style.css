@@ -70,3 +70,25 @@ li:before {
 	content: '→ ';
 	color: #aaa;
 }
+
+#copyright:not(:target){
+	display:none;
+}
+
+#copyright:target{
+	display: block;
+	
+	position: absolute;
+	background-color: white;
+	border: 2px solid black;
+	
+	padding: 5em 2em;
+	width: 13em;
+	height: 5em;
+}
+#copyright span{
+        display: block;
+	position: absolute;
+	right: 0.5em;
+	top: 0.5em;
+}
